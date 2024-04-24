@@ -2,7 +2,7 @@ from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
 
-str_UselessVar = "RunnerError01"
+str_UselessVar = "RunnerError02"
 
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
